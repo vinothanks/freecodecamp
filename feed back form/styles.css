@@ -1,0 +1,64 @@
+
+body{
+    background-color: blanchedalmond;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#title,#description{
+    margin: 1em auto;
+    text-align: center;
+    color:rgb(113, 76, 6);
+}
+form{
+    max-width: 600px;
+    background-color: #411604;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px -10px rgb(201, 96, 21);
+}
+fieldset{
+    margin: auto;
+    padding: 30px;
+    padding-right: 35px;
+    border: none;
+}
+#part1{
+    padding-bottom: 0px;
+}
+#part2{
+    padding-top: 0px;
+}
+label{
+    display: block;
+    color: white;   
+    margin-bottom: 5px; 
+}
+.fwidth,select,textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 7px 0;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 5, 0);
+}
+input[type=radio], input[type=checkbox]{
+    margin: 10px 10px;
+    border: 2px solid black;
+}
+section{
+    margin: 10px 0px;
+}
+input[type=submit]{
+    background-color: #e65010;
+    border-radius: 5px;
+    color: black;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+textarea{
+    height: 100px;
+}
